@@ -62,25 +62,15 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829}, {"county":"De
 for county_dict in voting_data:
     print(county_dict)
 
-
-for county_dict in voting_data:
-    for value in county_dict.values():
-        print(value)
-
-
-for county_dict in voting_data:
-    print(county_dict['registered_voters'])
-
-for county, voters in counties_dict.items():
-    print(f"{county} county has {voters} registered voters.")
-
-for county_dict in voting_data:
-    for value in county_dict.values():
-        print(value)
+print(voting_data[2])
         
-for county_dict in voting_data:
-    for county, voters in counties_dict.items():
-        print(f"{county} county has {voters} registered voters.")
+print(voting_data[2]['county'])
+print(voting_data[2]['registered_voters'])
+
+
+print(f'{voting_data[0]["county"]} county has {voting_data[0]["registered_voters"]} registered voters.')
+print(f'{voting_data[1]["county"]} county has {voting_data[1]["registered_voters"]} registered voters.')
+print(f'{voting_data[2]["county"]} county has {voting_data[2]["registered_voters"]} registered voters.')
 
 
 
@@ -91,6 +81,3 @@ for county_dict in voting_data:
 
 
 
-
-
-    
