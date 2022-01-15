@@ -1,6 +1,7 @@
 # Add our dependencies.
 import csv
 import os
+
 # Assign a variable for the file to load and the path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path. 
@@ -13,6 +14,7 @@ total_votes = 0
 candidate_options = [] 
 # Declare the empty dictionary.
 candidate_votes = {}
+
 # Winning candidate and Winning Vote Tracker
 winning_candidate = ""
 winning_count = 0
