@@ -38,4 +38,12 @@ The analysis of the election shows that:
 Please see following link to code-generated election results file: https://github.com/MischievousBadger/election_analysis/blob/f0f6856293b3c4ee480e8fcaabf1ca2960e27c60/analysis/election_results.txt
 
 ## Election-Audit Summary
+Due to its success in automating the audit and analysis of this election, it is proposed to the election commission that this script be used to audit future elections in the state. The script is purposefully written to pull in data using variables that are generic and not specific to any particular district or locality. The script may need modification in certain areas in order to perform correctly for each individual election.  One area that may need to be changed are the dependencies, depending on the format of the data file used (here, a .csv file was used).  
+![image](https://user-images.githubusercontent.com/90944163/149644820-a079e36e-f59a-4ce5-84f0-3ac186050b54.png)
+Another area of the script that will need modification for each election are the variables which load the files; the paths will need to be changed specific to the location and/or names of the data file to be analyzed, as well as the location and names of the data file to which the results will be written. 
+![image](https://user-images.githubusercontent.com/90944163/149644883-9d32b14a-1c43-497b-871e-8ff3ecd77f8f.png)
+If a file type other than .csv is used, the code to read the data will need to be changed to the corresponding file format. 
+![image](https://user-images.githubusercontent.com/90944163/149644914-20642f23-4f08-4959-b14d-7f3ad69c697d.png)
+
+
 
